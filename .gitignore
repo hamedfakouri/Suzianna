@@ -167,5 +167,3 @@ BuildScript/artifacts
 !BuildScript/tools/packages.config.md5sum
 .idea/
 /BuildScript/test-results
-# SpecFlow
-*.feature.cs
