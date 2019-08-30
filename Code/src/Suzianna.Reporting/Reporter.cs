@@ -3,7 +3,7 @@ using Suzianna.Reporting.XmlNodes;
 
 namespace Suzianna.Reporting
 {
-    public class Reporter
+    public class Reporter:IReporter
     {
         private readonly IClock _clock;
         private readonly Report _report;
