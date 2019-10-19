@@ -39,4 +39,19 @@
     <ProjectReference Include="..\..\..\src\Plugins\Suzianna.SpecflowPlugin\Suzianna.SpecFlowPlugin.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Features\Calculator.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Calculator.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\Calculator.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Calculator.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
 </Project>
