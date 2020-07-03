@@ -31,12 +31,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suzianna.Reporting", "src\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suzianna.Reporting.Tests.Unit", "test\Suzianna.Reporting.Tests.Unit\Suzianna.Reporting.Tests.Unit.csproj", "{CE9364BE-2354-4EBC-BF3F-2317C8DDA885}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "..\BuildScript\_build.csproj", "{01C3A8FC-8E97-4EA9-97BB-5C5349594504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C3A8FC-8E97-4EA9-97BB-5C5349594504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C3A8FC-8E97-4EA9-97BB-5C5349594504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52547245-804F-4FD1-A376-3954151E99EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52547245-804F-4FD1-A376-3954151E99EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52547245-804F-4FD1-A376-3954151E99EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
